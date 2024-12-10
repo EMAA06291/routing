@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.focus-effect {
+  @apply focus:bg-[#1abc] focus:px-2 focus:rounded-lg;
+}
+.dev-center {
+  @apply flex  items-center;
+}
+@layer base {
+  body {
+    @apply m-0 p-0 box-border;
+  }
+}
